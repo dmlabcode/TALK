@@ -7,7 +7,7 @@ Download this repository using **Code → Download ZIP**, extract it, and open a
 
 | File | Purpose |
 | --- | --- |
-| `whisper_env.yml` | Conda environment for the three TALK scripts |
+| `environment.yml` | Conda environment for the three TALK scripts |
 | `whisper_transcribe.py` | Transcribe audio recordings |
 | `whisper_vtc1_alignment.py` | Combine transcripts with speaker labels |
 | `transcript_data_analysis.py` | Produce a summary CSV |
@@ -17,7 +17,7 @@ Download this repository using **Code → Download ZIP**, extract it, and open a
 Install Conda through Miniconda or Anaconda if needed, then create and activate the environment. [Conda installation instructions](https://docs.conda.io/projects/conda/en/stable/user-guide/install/index.html)
 
 ```bash
-conda env create -f whisper_env.yml
+conda env create -f environment.yml
 conda activate talk
 python -m pip install --no-build-isolation openai-whisper==20231117
 ```
