@@ -1,0 +1,16 @@
+# Create this environment, then install Whisper using the README setup command.
+name: talk
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip=23.2.1
+  - setuptools=68.0.0
+  - wheel=0.38.4
+  - ffmpeg
+  - pip:
+      - numpy==1.24.4
+      - pandas==1.5.3
+      - torch==2.0.1
+      - numba==0.57.1
+      - tiktoken==0.3.1
